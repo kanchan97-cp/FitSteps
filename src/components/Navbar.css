@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000102;
+  padding: 1rem 2rem;
+}
+.navbar-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f0a500;
+  text-decoration: none;
+}
+.navbar-links,
+.navbar-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+.button {
+  color: #fff;
+  background: transparent;
+  font-size: 1rem;
+}
+.button:hover {
+  color: #f0a500;
+  background: transparent;
+}
+.navbar-buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
+.login {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.login:hover {
+  background: #fff;
+  color: #0d1b2a;
+}
+.signup {
+  background: #f0a500;
+  color: #0d1b2a;
+  border: 1px solid #f0a500;
+}
+.signup:hover {
+  background: #d18e00;
+  border-color: #d18e00;
+}

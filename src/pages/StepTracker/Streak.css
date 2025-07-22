@@ -1,0 +1,55 @@
+.streak-container {
+  padding: 1rem;
+  background: #fdfdfd;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.streak-empty
+{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.streak-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 20px);
+  gap: 5px;
+  margin: 1rem 0;
+  justify-content: center;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+}
+
+.dark-green {
+  background-color: #2e7d32;
+}
+
+.light-green {
+  background-color: #a5d6a7;
+}
+
+.gray {
+  background-color: #e0e0e0;
+}
+
+.legend {
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.legend-item {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  border-radius: 50%;
+}

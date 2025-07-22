@@ -1,0 +1,33 @@
+.mission-section {
+  padding: 40px 20px;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.mission-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000102;
+}
+.mission-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #666;
+}
+.mission-link {
+  color: #000102;
+  background-color: #c9c9c9;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.mission-link:hover {
+  background: #f0a500;
+  color: white;
+}

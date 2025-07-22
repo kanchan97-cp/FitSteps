@@ -1,0 +1,42 @@
+.message-container {
+  margin: 40px auto;
+  padding: 30px 400px;
+}
+.message-container h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #000102;
+  background-color: white;
+}
+.message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+.form-row input {
+  flex: 1;
+}
+input,
+textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #666;
+  border-radius: 8px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #999;
+  color: #000102;
+  border: none;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: #f0a500;
+  color: white;
+}

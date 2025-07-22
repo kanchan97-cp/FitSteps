@@ -1,0 +1,71 @@
+.hero {
+  background-color: black;
+  padding: 100px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #b8b8b8;
+}
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+.btn-primary,
+.btn-outline {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+.btn-primary {
+  background-color: #ffffff;
+  color: black;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #f0a500;
+  color: white;
+}
+.btn-outline {
+  background-color: #ffffff;
+  color: black;
+  border: none;
+}
+.btn-outline:hover {
+  background-color: #f0a500;
+  color: white;
+}
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 960px;
+  margin: 40px auto 0; 
+  padding: 0 20px;
+}
+.stat-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px 30px;
+  border-radius: 10px;
+  min-width: 180px;
+  text-align: center;
+}
+.stat-card h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: white;
+}
+.stat-card p {
+  font-size: 14px;
+  color: #e0e0e0;
+  margin: 0;
+}

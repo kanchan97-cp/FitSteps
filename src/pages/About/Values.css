@@ -1,0 +1,41 @@
+.values-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.values-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000102;
+  margin-bottom: 10px;
+}
+.values-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+.value-card {
+  background-color: #f4f4f9;
+  padding: 25px 20px;
+  border-radius: 10px;
+}
+.value-card:hover {
+  transform: translateY(-5px);
+}
+.value-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.value-title {
+  font-size: 1.3rem;
+  color: #000102;
+  margin-bottom: 10px;
+}
+.value-description {
+  font-size: 1.1rem;
+  color: #666;
+}

@@ -1,0 +1,98 @@
+.report-container 
+{
+  padding: 20px;
+  width: 75%;
+  margin: auto;
+  background-color: white;
+}
+h2
+{
+  font-size: 30px;
+}
+.report-header 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.report-buttons 
+{
+  display: flex;
+  gap: 10px;
+}
+
+.add-step-btn,
+.set-target-btn,
+.remove-day-btn,
+.restart-btn {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.input-section {
+  margin: 15px 0;
+}
+
+.input-section input {
+  padding: 6px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.restart-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step-log {
+  margin-top: 30px;
+}
+
+.step-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.step-info {
+  flex: 1;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.progress-fill.success {
+  background-color: #2ecc71;
+}
+
+.remove-day-btn {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #e74c3c;
+}
+.span2
+{
+  font-weight: bold;
+}
